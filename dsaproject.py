@@ -104,7 +104,7 @@ def cos():
         cd=dict(zip(q,names))
         root1.geometry('500x500')
         root1.title('costumer portal')
-        mylabel1=Label(root1,text= "We welcome you humbly !!!!",font='bold').place(relx=0.5,rely=0.1,anchor=CENTER)
+        mylabel1=Label(root1,text= "We welcome you humbly !!!",font='bold').place(relx=0.5,rely=0.1,anchor=CENTER)
         e1=Entry(root1,width=40,font='bold')
         e1.place(relx=0.5,rely=0.2,anchor=CENTER)
         def val():
